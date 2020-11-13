@@ -1,0 +1,231 @@
+
+
+.imagen{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+#imagen{
+padding: 0% ;
+}
+
+.imaPrincipal{
+
+    width: 100%;
+    height: 200px;
+    
+       
+}
+
+header{
+    background-color: rgb(2, 140,174);
+   
+}
+
+
+
+.body{
+background-color: rgb(5, 156,188);
+
+}
+
+#formulario{
+padding: 1px;
+}
+
+.formulario{
+   width: 300px;
+   
+}
+
+
+
+#menu{
+    background-color: #eeeeee;
+      
+}
+
+#menu ul{
+    padding: 0%;
+}
+
+#menu ul li{
+    display: inline-block;
+    
+    border-left: 1px solid #cccccc;
+   
+}
+
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: #444444;
+   
+}
+
+
+#menu ul li:hover {
+    background: rgb(16,75,143);
+    cursor: pointer;
+}
+
+#menu ul li:hover a{
+    color: white;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#menu1{
+    padding: 1px;
+}
+
+#video{
+    padding: 1px;
+}
+
+.mundo{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 917px){
+
+    #barra_superior{
+        display: none;
+    }
+
+    #mundo{
+    display: none;
+    }
+}
+
+@media screen and (min-width: 917px){
+    #barra_nav{
+    display: none;
+    }
+      
+}
+
+.imagen1{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    padding: 0%;
+}
+
+.imagen2{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    padding: 0%;
+}
+.parrafo1{
+    text-align: justify ;
+    margin-top: 10px;
+}
+
+.parrafo2{
+    margin-top: 20px;
+    text-align: justify ;
+   
+}
+  
+  form label {
+    font-size: 30px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: black;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    margin-top: 1px;
+    margin-bottom: 0.5px;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+  .clasificacion :nth-child(even){
+      margin-bottom: 0px;
+  }
+
+
+.imaPrincipal2{
+    width: 100%;
+    height: 300px;
+}
+
+.vision{
+    text-align: center;
+}
+
+.parrafo3{
+
+    text-align: justify;
+}
+
+.widget2{
+    align-items: center;
+}
+
+#inputEmail4:invalid{
+    background: red;
+}
+
+#form{
+margin-top: 3%;
+margin-right: 20%;
+margin-left: 20%;
+}
+
+#precio{
+margin-top: 4%;
+margin-bottom: 4%   ;
+}
+
+input[type="text"] 
+{ 
+    width: 400px;
+    height: 40px   ; 
+} 
+
+#precio input[type="text"] 
+{ 
+    width: 863px;
+    height: 40px   ; 
+} 
+
+.textarea
+{ 
+    width: 863px;
+    height: 100px;
+    margin-bottom: 7%;
+} 
+
+.boton{
+    width: 30%;
+   
+}
+
+.boton1{
+margin-left: 35%;
+}
