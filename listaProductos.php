@@ -41,7 +41,7 @@
                                 <h4 class="card-title"><?php echo($producto["marca"]) ?></h4>
                                 <h5 class="card-title"><?php echo($producto["precio"]) ?></h3>
                                 <p class="card-text"><?php echo($producto["descripcion"]) ?></p>
-                                <a href="eliminarProductos.php?id=<?php $producto['idProducto']?>" class="btn btn-danger">Eliminar</a>
+                                <a href="eliminarProductos.php?id=<?php echo($producto['idProducto'])?>" class="btn btn-danger">Eliminar</a>
                                 <a href="#" class="btn btn-warning">Editar</a>
                             </div>
                         </div>

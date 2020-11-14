@@ -29,7 +29,7 @@
     </header>
     <main>
         <section class="container-fluid">
-            <form id="form"action="registrarProductos.php" method="POST">
+            <form id="form" action="registrarProductos.php" method="POST">
                 <div class="row">
                     <div class="col-md-6">
                         <input type="text" name="nombre" placeholder="Nombre del Producto">
@@ -46,6 +46,11 @@
                 <div class="row">
                     <div class="col-md-12">
                         <textarea class="textarea" name="descripcion" placeholder="Descripcion"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    <input type="text" name="foto" placeholder="URL Foto">
                     </div>
                 </div>
                 <div class="row ">

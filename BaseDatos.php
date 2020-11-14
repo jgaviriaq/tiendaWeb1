@@ -80,6 +80,7 @@ public function eliminarDatos($consultaSQL)
     //Ejecutar la Consulta
     $resultado =  $eliminarDatos->execute();
 
+     //Verifico el resultado   
         if($resultado){
             echo("Producto Eliminado");
             }else{
