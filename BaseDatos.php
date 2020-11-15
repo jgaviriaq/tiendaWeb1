@@ -88,6 +88,26 @@ public function eliminarDatos($consultaSQL)
             }
 }
 
+public function editarDatos($consultaSQL) 
+{
+        //Establecer una conexion
+        $conexionBD = $this->conectarBD();
+
+        //Preparar consulta
+        $editarDatos = $conexionBD->prepare($consultaSQL);
+
+        //Ejecutar la Consulta
+        $resultado =  $editarDatos->execute();
+
+        //Verifico el resultado   
+        if($resultado){
+            echo("Producto Editado");
+            }else{
+                echo("error");
+            }
+
+
+}
 }
 
 

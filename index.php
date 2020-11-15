@@ -84,7 +84,7 @@
                                 <a href="pagina3.php" target="_blank">Administracion de Productos</a>
                             </li>
                             <li>
-                                <a href="#">Planes de Verano</a>
+                                <a href="listaProductos.php" target="_blank">Listado de Productos</a>
                             </li>
                             <li>
                                 <a href="#">Planes de Invierno</a>

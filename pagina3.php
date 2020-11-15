@@ -16,7 +16,7 @@
         <div class="container-fluid">
             <div class="row" id="barra_superior">
                 <div class="col-md-2">
-                    <a href="index.php" target="_blank"><img class="imagen" src="img/home-solid.svg" alt="Contacto"></a>
+                    <a href="index.php" ><img class="imagen" src="img/home-solid.svg" alt="Contacto"></a>
                 </div>
                 <div class="col-md-2">
                     <a href="https://www.youtube.com/watch?v=2HvnoXe0MAw" target="_blank"><img class="imagen" src="img/youtube-brands.svg" alt="Contacto"></a>
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12" id="foto">
                     <input type="text" name="foto" placeholder="URL Foto">
                     </div>
                 </div>

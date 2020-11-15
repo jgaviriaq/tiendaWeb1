@@ -20,6 +20,12 @@ $consultaSQL = "INSERT INTO productos(nombre, marca, precio, descripcion, foto) 
 //Llamo al metodo de la clase BD agregar datos
 
 $transaccion->agregarDatos($consultaSQL);
+
+//Redireccionar
+
+header("location:pagina3.php");
+
 }
+
 
 ?>

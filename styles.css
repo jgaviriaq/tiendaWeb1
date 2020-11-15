@@ -208,7 +208,8 @@ input[type="text"]
     height: 40px   ; 
 } 
 
-#precio input[type="text"] 
+#precio input[type="text"],
+#foto  input[type="text"]
 { 
     width: 863px;
     height: 40px   ; 
@@ -228,4 +229,27 @@ input[type="text"]
 
 .boton1{
 margin-left: 35%;
+}
+
+
+#contenedor{
+    
+    width: 80%;
+    margin-top: 3%;
+}
+
+img{
+    width: 7em;
+    height: 7em;
+      }
+  
+#parrafolista{
+    text-align: left;
+    font-size: 0.8em;
+    color: white;
+}   
+
+#titulo{
+    text-align: center;
+    font-weight: bolder;
 }

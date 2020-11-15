@@ -16,4 +16,8 @@ $consultaSQL = "DELETE FROM productos WHERE idProducto = '$idEliminar'";
 
 $transaccion->eliminarDatos($consultaSQL);
 
+//Redireccionar
+
+header("location:listaProductos.php");
+
 ?>
