@@ -17,7 +17,7 @@
                     <a href="index.php"><img class="imagen" src="img/home-solid.svg" alt="Contacto"></a>
                 </div>
                 <div class="col-md-2">
-                    <a href="https://www.youtube.com/watch?v=2HvnoXe0MAw" target="_blank"><img class="imagen" src="img/youtube-brands.svg" alt="Contacto"></a>
+                    <a href="pagina3.php" ><img class="imagen" src="img/administracion.svg" alt="Contacto"></a>
                 </div>
                 <div class="col-12 col-md-8">
                     <h1>Listado de Productos</h1>
